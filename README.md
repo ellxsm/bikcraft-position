@@ -1,6 +1,6 @@
 # 🚴‍♀️ Bikcraft - Exercício HTML/CSS
 
-Projeto da página web para a marca fictícia Bikcraft, desenvolvido como parte de um exercício focado em aprender e aplicar os conceitos de layout utilizando display: grid, flex e position em CSS. Na v2, o projeto foi refatorado com a melhoria da semântica + adição de pseudo-elements/classes, trazendo maior dinamismo e usabilidade para a página.
+Projeto da página web para a marca fictícia Bikcraft, desenvolvido como parte de um exercício focado em aprender e aplicar os conceitos de layout utilizando display: grid, flex e position em CSS. Na v2, o projeto foi refatorado com a melhoria da semântica e a adição de pseudo-elements/classes, trazendo maior dinamismo e usabilidade para a página. Já na v3, foi implementada responsividade, garantindo uma experiência fluida e adaptada para diferentes dispositivos.
 
 ## 📂 Estrutura do Projeto
 
@@ -11,4 +11,4 @@ Projeto da página web para a marca fictícia Bikcraft, desenvolvido como parte 
 ----
 
 **Curso:** HTML e CSS para Iniciante - Origamid <br>
-**Exercício Concluído em:** 11/11/24 ✅
+**Exercício atualizado em:** 01/12/24 ✅
