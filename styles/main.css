@@ -54,7 +54,11 @@ header {
 
 .nav__list {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   gap: 20px;
+  height: 150px;
 }
 
 .nav__list a {
@@ -74,6 +78,11 @@ header {
   grid-template-columns: 1fr 1fr;
   justify-self: center;
   max-width: 1000px;
+}
+
+.conteudo-img img {
+  object-fit: cover;
+  height: 100%;
 }
 
 .descricao {
@@ -145,4 +154,49 @@ footer {
   height: 100px;
   width: 100vw;
   background-color: #fff;
+}
+
+@media (max-width: 767px) {
+  body {
+    gap: 20px;
+  }
+
+  header {
+    gap: 20px;
+  }
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  .descricao {
+    justify-items: start;
+    text-align: left;
+    gap: 20px;
+  }
+
+  .descricao::before {
+    display: none;
+  }
+
+  .conteudo {
+    grid-template-columns: 1fr;
+  }
+
+  .nav__list {
+    gap: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 945px) {
+  body,
+  header {
+    gap: 10px;
+  }
+  h2 {
+    text-align: center;
+  }
+  .conteudo-responsivo {
+    grid-template-columns: 1fr;
+  }
 }
